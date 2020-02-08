@@ -1,0 +1,95 @@
+/* Write some CSS below */
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+h1 {
+	font-family: 'Lemonada', cursive;
+	font-size: 42px;
+	text-align: center;
+}
+
+a{
+	background-color: #2C2B4E;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+p{
+	font-size: 22px;
+	text-align: center;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.container{
+	margin: 0 auto;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+@media (min-width: 400px) {
+	.container{
+      width: : 400px;
+     }
+}
+
+@media (min-width: 720px) {
+	.container{
+      width: : 720px;
+     }
+}
+
+@media (min-width: 1000px) {
+	.container{
+      width: : 1000px;
+     }
+}
+
+.card-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	background-color: #CFD2D9;
+	padding: 8px;
+	margin: 16px;
+	border-radius: 8px;
+}
+
+.button{
+	background-color: #9B1D20;
+	color: rgb(200,200,200);
+	padding: 12PX;
+	margin: 16px;
+	border-radius: 3PX;
+}
+#header-background {
+	width:  100%;
+	height: 80vh;
+     background-image: url("images/NYC2.jpg");
+     background-position: center;
+     background-size: cover;
+}
+.image{
+	width: 350px;
+	height: 200px;
+	border-radius: 16px;
+}
+
+.footer{
+	margin: 0 auto;
+	background-color: #CFD2D9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
